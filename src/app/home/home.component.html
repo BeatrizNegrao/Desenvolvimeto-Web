@@ -1,0 +1,58 @@
+@if (images) {
+<ngb-carousel>
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper">
+			<img [src]="images[1]"class="carousel-img" alt="..." />
+		</div>
+	</ng-template>
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper">
+			<img src="img/imagem1.jpg" class="carousel-img" alt="..." />
+		</div>
+	</ng-template>
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper">
+			<img [src]="images[1]" class="carousel-img" alt="..." />
+		</div>
+	</ng-template>
+</ngb-carousel>
+}
+
+<div class="row mt-3">
+	<div class="col-md-3">
+		<div class="card" style="width: 19rem;">
+			<img src="img/paris.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Um tour diferente por Paris</h5>
+				<p class="card-text">Se você está planejando uma viagem para Paris e quer vivenciar uma experiência realmente única, é uma excelente opção!</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card" style="width: 19rem;">
+			<img src="img/praia.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Hotéis para Réveillon na Praia</h5>
+				<p class="card-text">Se a ideia de passar o Réveillon com os pés na areia e o som do mar ao fundo te encanta, você está no lugar certo.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card" style="width: 19rem;">
+			<img src="img/viagem.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Onde Viajar pelo Brasil</h5>
+				<p class="card-text">Prepare-se para se encantar com Salvador, Porto Seguro, as Cidades Históricas de Minas Gerais.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card" style="width: 19rem;">
+			<img src="img/capri.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Ilha de Capri na Itália </h5>
+				<p class="card-text">A ilha é um impressionante pedaço do paraíso italiano. Em meados do século XIX se tornou point de intelectuais e artistas.</p>
+			</div>
+		</div>
+	</div>
+</div>

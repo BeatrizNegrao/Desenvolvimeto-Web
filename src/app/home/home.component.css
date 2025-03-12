@@ -1,0 +1,16 @@
+.card {
+    width: 19rem;
+    height: 21.5rem;
+}
+
+.card-img-top {
+    height: 350px;
+    object-fit: cover; 
+}
+
+.carousel-img {
+    object-fit: cover;
+    height: 500px;
+    width: 100%; 
+}
+
