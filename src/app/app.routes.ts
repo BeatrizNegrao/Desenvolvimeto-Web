@@ -18,3 +18,15 @@ export const routes: Routes = [
     },
     { path: '**', component: NotFoundComponent }
 ];
+
+// Cada objeto de rota deve conter duas propriedade principais:
+//1. path: A URL correspondente a essa rota.
+//2. component: O componente que deve ser carregado quando essa rota é ativada
+
+//Rotas coringas:  correspondem a qualquer URL que não seja correspondida por umavrota específica.
+// Ex: { path: '**', component: PageNotFoundComponent }, // error 404
+
+// Rotas de redirecionamentos: ão úteis para atualizar URLs antigas ou para redirecionar o usuário para uma página diferente
+// Ex: { path: '', redirectTo: '/calculadora', pathMatch: 'full' }
+// O valor 'full' indica que o Angular só deve corresponder a rota quando a URL solicitada for
+// exatamente igual ao valor definido na propriedade path. 

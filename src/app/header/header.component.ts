@@ -10,3 +10,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class HeaderComponent {
 
 }
+
+
+// Um componente é iniciado a partir de uma classe anotada com @Component
+// propriedades selector e template(Url) são obrigatórias.
+//O atributo selector: indica como este componente será chamado dentro do template.

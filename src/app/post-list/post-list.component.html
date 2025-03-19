@@ -3,7 +3,7 @@
         <nav>
             <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
-                    <a routerLink="post-datail" routerLinkActive="active" class="nav-link">Confira onde tomar os melhores sorvetes em sua viagem para Londres</a>
+                    <a routerLink="post-detail" routerLinkActive="active" class="nav-link">Confira onde tomar os melhores sorvetes em sua viagem para Londres</a>
                 </li>
                 <li class="nav-item">
                     <a routerLink="post-detail2" routerLinkActive="active" class="nav-link">Confira os melhores hotéis para ver a Aurora Boreal</a>
@@ -15,3 +15,15 @@
         <router-outlet />
     </div>
 </div>
+
+<!-- col-md-3: significa que esta coluna ocupará 25% (3/12) da largura disponível,  -->
+<!-- <nav>: define a seção de navegação da página -->
+<!-- ul: lista não ordenada que funcionará como menu de navegação -->
+<!-- nav-pills: estiliza os itens como "pílulas" (com bordas arredondadas) -->
+<!-- flex-column: faz os itens se organizarem verticalmente (um abaixo do outro)  -->
+<!-- mb-auto: define a margem inferior como automática (margin-bottom: auto) -->
+<!-- routerLink="post-detail": define a rota para onde o link irá navegar  -->
+<!-- routerLinkActive="active": adiciona a classe "active" quando esta rota está ativa -->
+<!-- class="nav-link" aplica o estilo Bootstrap para links dentro de componentes de navegação -->
+<!-- <div class="col-md-9">: cria uma coluna que ocupará 9 das 12 unidades do grid Bootstrap, combinada com a coluna anterior (3 + 9 = 12), preenche completamente a linha  -->
+<!-- <router-outlet />: define onde os componentes das rotas filhas serão renderizados -->

@@ -4,4 +4,21 @@
       <li class="nav-item"><a routerLink="/post-list" routerLinkActive="active" class="nav-link">Posts</a></li>
       <li class="nav-item"><a routerLink="/about" routerLinkActive="active" class="nav-link">About</a></li>
     </ul>
-  </header>
+</header>
+
+<!-- <header>: representa o cabeçalho da página -->
+<!-- class="d-flex": é uma classe Bootstrap que aplica o (display: flex) ao elemento, criando um contêiner flexível -->
+<!-- justify-content-center: é uma classe Bootstrap que centraliza os itens horizontalmente dentro do contêiner flex -->
+<!-- py-3: adiciona preenchimento (padding) no eixo Y (topo e base) de tamanho 3 -->
+<!-- <ul>: Cria uma lista não ordenada -->
+<!-- class="nav": é uma classe Bootstrap de navegação simples -->
+<!-- nav-pills: estiliza os itens de navegação como "pílulas" (botões arredondados) -->
+<!-- <li class="nav-item">: cria um item de lista com a classe Bootstrap para formatação como item de navegação -->
+<!-- <a>: é a tag que cria o link clicável -->
+<!-- routerLink="": é uma diretiva do angular que define para qual rota este link navegará -->
+<!-- routerLinkActive="active": é uma diretiva Angular que adiciona a classe CSS "active" quando esta rota está ativa -->
+
+<!-- Uso de routerLink: Em vez de usar links tradicionais (href), o angular usa a diretiva routerLink para navegação interna da aplicação sem recarregar a página completa (SPA - Single Page Application). -->
+<!-- routerLinkActive: adiciona uma classe CSS quando a rota atual corresponde ao link, permitindo destacar visualmente o item de menu da página atual. -->
+
+<!-- O uso de links padrão do HTML (<a href="/page"/>) não é amigável pra SPA's pois fazem recarregar a página toda; Deve ser usada ao invés disso a diretiva routerLink fornecida pelo roteador. -->
